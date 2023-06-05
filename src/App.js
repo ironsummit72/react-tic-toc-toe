@@ -1,28 +1,12 @@
-
-import './style.css';
-import Square from './components/Square';
+import "./style.css";
+import Square from "./components/Square";
+import { useState } from "react";
+import Board from "./components/Board";
 function App() {
   return (
-   <>
-   <div className="board-row">
-   <Square/>
-   <Square/>
-   <Square/>
-   </div>
-   <div className="board-row">
-   <Square/>
-   <Square/>
-   <Square/>
-   </div>
-   <div className="board-row">
-   <Square/>
-   <Square/>
-   <Square/>
-   </div>
-
-
-   </>
-
+    <>
+      <Board />
+    </>
   );
 }
 
