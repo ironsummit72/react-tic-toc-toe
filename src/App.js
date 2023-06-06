@@ -1,11 +1,12 @@
 import "./style.css";
 import Square from "./components/Square";
 import { useState } from "react";
-import Board from "./components/Board";
+
+import Game from "./components/Game";
 function App() {
   return (
     <>
-      <Board />
+      <Game />
     </>
   );
 }
